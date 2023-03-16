@@ -63,7 +63,7 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
-    rack (2.0.1)
+    rack (3.0.7)
     rake (12.0.0)
     rb-fsevent (0.9.8)
     rb-inotify (0.9.7)
@@ -94,11 +94,11 @@ DEPENDENCIES
   nanoc (~> 3.8.0)
   nokogiri
   pry
-  rack
+  rack (>= 2.2.6.4)
   rake
   rdiscount
   sass
   typhoeus
 
 BUNDLED WITH
-   2.1.2
+   2.1.4
