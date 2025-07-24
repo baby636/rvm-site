@@ -10,7 +10,7 @@ gem "haml"
 gem "rack"
 gem "sass"
 gem "typhoeus"
-gem "nokogiri"
+gem "nokogiri", ">= 1.18.9"
 gem "rdiscount"
 gem "mime-types"
 gem "builder"
@@ -18,5 +18,5 @@ gem "nanoc", "~> 3.8.0"
 
 group :development, :test do
   gem "rake"
-  gem "guard-nanoc"
+  gem "guard-nanoc", ">= 2.0.0"
 end
